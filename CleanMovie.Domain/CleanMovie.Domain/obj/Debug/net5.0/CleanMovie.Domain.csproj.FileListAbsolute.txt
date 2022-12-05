@@ -12,3 +12,4 @@ C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Domain
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Domain\bin\Debug\net5.0\CleanMovie.Domain.runtimeconfig.json
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Domain\bin\Debug\net5.0\CleanMovie.Domain.runtimeconfig.dev.json
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Domain\obj\Debug\net5.0\CleanMovie.Domain.genruntimeconfig.cache
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Domain\obj\Debug\net5.0\CleanMovie.Domain.csprojAssemblyReference.cache
