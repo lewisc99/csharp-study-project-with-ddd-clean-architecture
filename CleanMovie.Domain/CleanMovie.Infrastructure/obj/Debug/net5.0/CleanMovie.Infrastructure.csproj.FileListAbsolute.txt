@@ -1,4 +1,6 @@
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\CleanMovie.Infrastructure.deps.json
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\CleanMovie.Infrastructure.runtimeconfig.json
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\CleanMovie.Infrastructure.runtimeconfig.dev.json
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\CleanMovie.Infrastructure.dll
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\ref\CleanMovie.Infrastructure.dll
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\CleanMovie.Infrastructure.pdb
@@ -15,6 +17,4 @@ C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infras
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\obj\Debug\net5.0\CleanMovie.Infrastructure.dll
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\obj\Debug\net5.0\ref\CleanMovie.Infrastructure.dll
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\obj\Debug\net5.0\CleanMovie.Infrastructure.pdb
-C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\CleanMovie.Infrastructure.runtimeconfig.json
-C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\bin\Debug\net5.0\CleanMovie.Infrastructure.runtimeconfig.dev.json
 C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanMovie.Infrastructure\obj\Debug\net5.0\CleanMovie.Infrastructure.genruntimeconfig.cache

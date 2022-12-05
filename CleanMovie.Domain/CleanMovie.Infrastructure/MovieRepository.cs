@@ -35,5 +35,6 @@ namespace CleanMovie.Infrastructure
             //return movies;
             return _context.Movies.ToList();
         }
+
     }
 }

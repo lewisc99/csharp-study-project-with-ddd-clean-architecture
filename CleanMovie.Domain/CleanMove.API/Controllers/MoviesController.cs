@@ -1,5 +1,6 @@
 ﻿
 using cleanMovie.Application;
+using CleanMovie.Domain;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -28,6 +29,14 @@ namespace CleanMove.API.Controllers
             return Ok(moviesFromService);
 
 
+        }
+
+        [HttpPost]
+        public ActionResult<Movie> PostMovie(Movie movie)
+        {
+
+            var movieAdded = _service.CreateMovie(movie);
+            return Ok(movieAdded);
         }
 
     }

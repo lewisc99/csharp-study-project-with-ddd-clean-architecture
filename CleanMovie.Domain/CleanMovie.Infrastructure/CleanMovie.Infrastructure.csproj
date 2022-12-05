@@ -2,6 +2,7 @@
 
   <PropertyGroup>
 	<TargetFramework>net5.0</TargetFramework>
+	  <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,5 +17,7 @@
 	<ProjectReference Include="..\cleanMovie.Application\cleanMovie.Application.csproj" />
 
   </ItemGroup>
+
+
 
 </Project>

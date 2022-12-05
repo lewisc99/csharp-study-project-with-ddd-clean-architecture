@@ -2,6 +2,7 @@ using cleanMovie.Application;
 using CleanMovie.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,8 +29,19 @@ namespace CleanMove.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CleanMove.API", Version = "v1" });
             });
 
+
+            services.AddDbContext<MovieDbContext>(
+                options =>
+                {
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                        b => b.MigrationsAssembly("CleanMove.API"));
+                });
+
+
+
             services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IMovieRepository, MovieRepository>();
+
 
         }
 
