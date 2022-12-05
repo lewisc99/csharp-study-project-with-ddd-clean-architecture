@@ -1,0 +1,15 @@
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\bin\Debug\net5.0\cleanMovie.Application.deps.json
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\bin\Debug\net5.0\cleanMovie.Application.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\bin\Debug\net5.0\ref\cleanMovie.Application.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\bin\Debug\net5.0\cleanMovie.Application.pdb
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\bin\Debug\net5.0\CleanMovie.Domain.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\bin\Debug\net5.0\CleanMovie.Domain.pdb
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.csprojAssemblyReference.cache
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.AssemblyInfoInputs.cache
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.AssemblyInfo.cs
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.csproj.CopyComplete
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\ref\cleanMovie.Application.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\cleanMovie.Application\obj\Debug\net5.0\cleanMovie.Application.pdb
