@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Ds7pZ2KFC1z3qs1wb4h8hdPE4cu8nombTQspfPCxZHPYxQvET+RfDOrOiFYIN9DvywjK2wsfws7m6UNIYSGzw==",
+  "dgSpecHash": "QM+FEPs6YUY/nvpOLrp75F662Z/3hKFwBhr5yzq2w8BT5Wi1JFf1FZ1zpcSRO9rUMhOoY4nwyJYFaKOdqolKPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

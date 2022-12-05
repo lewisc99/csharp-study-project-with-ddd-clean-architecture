@@ -1520,6 +1520,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "CleanArchitecture.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Infrastructure.dll": {}
+        }
+      },
       "cleanMovie.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5811,6 +5825,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "CleanArchitecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj",
+      "msbuildProject": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj"
+    },
     "cleanMovie.Application/1.0.0": {
       "type": "project",
       "path": "../cleanMovie.Application/cleanMovie.Application.csproj",
@@ -5824,6 +5843,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CleanArchitecture.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
@@ -5865,6 +5885,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
+            },
             "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\cleanMovie.Application\\cleanMovie.Application.csproj": {
               "projectPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\cleanMovie.Application\\cleanMovie.Application.csproj"
             }

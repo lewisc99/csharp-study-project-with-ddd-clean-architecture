@@ -1,0 +1,15 @@
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\bin\Debug\net5.0\CleanArchitecture.Infrastructure.deps.json
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\bin\Debug\net5.0\CleanArchitecture.Infrastructure.runtimeconfig.json
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\bin\Debug\net5.0\CleanArchitecture.Infrastructure.runtimeconfig.dev.json
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\bin\Debug\net5.0\CleanArchitecture.Infrastructure.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\bin\Debug\net5.0\ref\CleanArchitecture.Infrastructure.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\bin\Debug\net5.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.AssemblyInfo.cs
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\ref\CleanArchitecture.Infrastructure.dll
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\Pichau\Downloads\clean-architecture\CleanMovie.Domain\CleanArchitecture.Infrastructure\obj\Debug\net5.0\CleanArchitecture.Infrastructure.genruntimeconfig.cache

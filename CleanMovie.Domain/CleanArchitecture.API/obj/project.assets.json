@@ -2,16 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Humanizer.Core/2.8.26": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Humanizer.dll": {}
-        }
-      },
-      "Microsoft.CSharp/4.7.0": {
+      "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -125,23 +116,6 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Humanizer.Core": "2.8.26",
-          "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
-        },
-        "build": {
-          "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -166,18 +140,6 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/_._": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
@@ -1607,69 +1569,14 @@
         "runtime": {
           "bin/placeholder/CleanArchitecture.Infrastructure.dll": {}
         }
-      },
-      "cleanMovie.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "CleanMovie.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/cleanMovie.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/cleanMovie.Application.dll": {}
-        }
-      },
-      "CleanMovie.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/CleanMovie.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CleanMovie.Domain.dll": {}
-        }
-      },
-      "CleanMovie.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "CleanArchitecture.Infrastructure": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
-          "cleanMovie.Application": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CleanMovie.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CleanMovie.Infrastructure.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Humanizer.Core/2.8.26": {
-      "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
-      "path": "humanizer.core/2.8.26",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "humanizer.core.2.8.26.nupkg.sha512",
-        "humanizer.core.nuspec",
-        "lib/netstandard1.0/Humanizer.dll",
-        "lib/netstandard1.0/Humanizer.xml",
-        "lib/netstandard2.0/Humanizer.dll",
-        "lib/netstandard2.0/Humanizer.xml",
-        "logo.png"
-      ]
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "type": "package",
-      "path": "microsoft.csharp/4.7.0",
+      "path": "microsoft.csharp/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1682,7 +1589,6 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -1692,7 +1598,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1858,21 +1764,6 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/5.0.0": {
-      "sha512": "kyd66aJDTZjpo4awTpJb6BOVGnhS/pZgD3O2JH1A9QhtE+0kqEVXJLpNN9CPfbKWERipXAEUyUadPHNclZCc3g==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.design/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.design.nuspec"
-      ]
-    },
     "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
       "sha512": "UMhoo0t3eii73AUwsvbGpYMGXS0ga/uA/cukgJza+IJ4EtcuNfdhGsA3emzf9nYpQ7urJzWzU6VOfG59h935Ag==",
       "type": "package",
@@ -1899,30 +1790,6 @@
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.5.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Tools/5.0.0": {
-      "sha512": "HSV7DLFMImkOuhnExianO/Csn1O/6s7h1kQxPFDa6zgfCQI09fyh7zzJoJ3KQiMUnajBBfYkEE9GtK7FoyeHOA==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/5.0.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.1/_._",
-        "microsoft.entityframeworkcore.tools.5.0.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.tools.nuspec",
-        "tools/EntityFrameworkCore.PS2.psd1",
-        "tools/EntityFrameworkCore.PS2.psm1",
-        "tools/EntityFrameworkCore.psd1",
-        "tools/EntityFrameworkCore.psm1",
-        "tools/about_EntityFrameworkCore.help.txt",
-        "tools/init.ps1",
-        "tools/net461/any/ef.exe",
-        "tools/net461/win-x86/ef.exe",
-        "tools/netcoreapp2.0/any/ef.dll",
-        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
@@ -6026,30 +5893,12 @@
       "type": "project",
       "path": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj",
       "msbuildProject": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj"
-    },
-    "cleanMovie.Application/1.0.0": {
-      "type": "project",
-      "path": "../cleanMovie.Application/cleanMovie.Application.csproj",
-      "msbuildProject": "../cleanMovie.Application/cleanMovie.Application.csproj"
-    },
-    "CleanMovie.Domain/1.0.0": {
-      "type": "project",
-      "path": "../CleanMovie.Domain/CleanMovie.Domain.csproj",
-      "msbuildProject": "../CleanMovie.Domain/CleanMovie.Domain.csproj"
-    },
-    "CleanMovie.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../CleanMovie.Infrastructure/CleanMovie.Infrastructure.csproj",
-      "msbuildProject": "../CleanMovie.Infrastructure/CleanMovie.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CleanMovie.Infrastructure >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
-      "Swashbuckle.AspNetCore >= 5.6.3",
-      "cleanMovie.Application >= 1.0.0"
+      "CleanArchitecture.Infrastructure >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
@@ -6060,11 +5909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanMove.API\\CleanMove.API.csproj",
-      "projectName": "CleanMove.API",
-      "projectPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanMove.API\\CleanMove.API.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
+      "projectName": "CleanArchitecture.API",
+      "projectPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanMove.API\\obj\\",
+      "outputPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6087,11 +5936,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\cleanMovie.Application\\cleanMovie.Application.csproj": {
-              "projectPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\cleanMovie.Application\\cleanMovie.Application.csproj"
-            },
-            "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj"
+            "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Pichau\\Downloads\\clean-architecture\\CleanMovie.Domain\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
             }
           }
         }
@@ -6106,16 +5952,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.0, )"
-          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
